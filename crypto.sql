@@ -194,52 +194,6 @@ CREATE TABLE IF NOT EXISTS `Chat` (
 --
 
 INSERT INTO `Chat` (`Timestamp`, `Username`, `Message`) VALUES
-(1399505337, 'julien', 'salut!'),
-(1399507140, 'pierre', 'hello'),
-(1399507178, 'julien', 'hello'),
-(1399507196, 'julien', 'you should sell all your DOGE !!'),
-(1399543439, 'julien', 'hello'),
-(1399544152, 'julien', 'ikkdkedzdc'),
-(1399544163, 'julien', 'ok'),
-(1399544207, 'julien', 'hello'),
-(1399544704, 'julien', 'salut Ã§a va?:)'),
-(1399544723, 'julien', 'salut oui et toi'),
-(1399544727, 'julien', 'ca va impec'),
-(1399545258, 'julien', 'salut'),
-(1399545259, 'julien', 'ca'),
-(1399545260, 'julien', 'va'),
-(1399563273, 'pierre ', 'HI there'),
-(1399563312, 'pierre ', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'),
-(1399563333, 'pierre ', 'javascript:alert("ok");'),
-(1399563374, 'pierre ', ''''' OR 1 --'''),
-(1399563650, 'pierre ', 'aaaaaaaaaaaaaaaaaaaaa'),
-(1399563658, 'pierre ', '1'),
-(1399563659, 'pierre ', '2'),
-(1399563659, 'pierre ', '434'),
-(1399664022, 'pierre', 'hi'),
-(1399664110, 'julien', 'hello pierre'),
-(1399664127, 'pierre', 'salut julien'),
-(1399664224, 'pierre', 'gggg'),
-(1399664233, 'julien', 'kkk'),
-(1399664236, 'julien', 'tttt'),
-(1399664242, 'pierre', 'jjjj'),
-(1399664338, 'pierre', 'marcghhhhhh'),
-(1399664340, 'pierre', 'l'),
-(1399664343, 'pierre', 'nnnnnnn'),
-(1399664347, 'julien', 'kkkkkk'),
-(1399668574, 'pierre', 'hhhhhh'),
-(1399729844, 'pierre', 'hh'),
-(1399746934, 'julien', 'hello'),
-(1399747413, 'julien', 'ok'),
-(1399762020, 'pierre', 'hoyÃ©Ã©Ã©Ã©'),
-(1399762061, 'julien', 'salut pier'),
-(1399763340, 'julien', 'http://crypto-maniac.com/users/trades.php?market=doge-ltc'),
-(1400052858, 'julien', 'hi'),
-(1400053185, 'julien', 'hello'),
-(1400053207, 'julien', 'hi'),
-(1400053508, 'julien', 'l'),
-(1400059499, 'pierre', 'ping'),
-(1400059502, 'pierre', 'pong'),
 (1400060564, 'pierre', 'sell your doges!'),
 (1400063774, 'pierre', 'hello');
 
@@ -267,15 +221,6 @@ CREATE TABLE IF NOT EXISTS `deposits` (
 
 INSERT INTO `deposits` (`Timestamp`, `Transaction_Id`, `Amount`, `Coin`, `Paid`, `id`, `Account`, `Confirmations`) VALUES
 (1399392197, 'f98dcb13c6d764b340418cd2a0639400e160daf355e6060aa90b77482079e5c9', 14.8, 'MZC', 1, 6173, 'pierre', 4902),
-(1399392197, '96139a332dec59537cd2a6005cd07bfb9bbc5577f9985518c9df360f6f65e0f4', 49.8, 'MZC', 1, 6172, 'pierre', 6400),
-(1399251301, 'c6430abe38906ff91e22da448bc7332e361733f83291438867f446f7251cc582', 0.0095, 'BTC', 1, 6171, 'admin', 76),
-(1400061061, 'a9b0e8de1fa1574854f5c866833ac7cece7387e8e75674c6687e7af99f2dbef6', 10003.37675496, 'DOGE', 1, 6178, 'pierre', 6),
-(1399895641, 'e9f97a292046ec388cf935b8540c58eb9c2d29bc356a94aaed4079c9b29ee27e', 19, 'DOGE', 1, 6176, 'admin', 5),
-(1399896361, 'faa94229852ab1c902bc9b60b813154d9dec0abf5f65a2a961338bf952f8a580', 413725.58906965, 'DOGE', 1, 6177, 'pierre', 4),
-(1399204801, 'd40148f7e186786cace93aa9fc26741d11e2623abb0c76fc27c51e000d0bed85', 0.1577059, 'LTC', 1, 6166, 'pierre', 5828),
-(1399204801, '5c10b51a1ee476631eb0bebf37b660042c07ade271615ebdb84b500de9e2edbe', 0.811, 'LTC', 1, 6165, 'pierre', 6053),
-(1399204801, '73fa5f01dcf671adf997a05bfd3aaebc65fdd35c9c8dc1bffca27eea4158e62b', 0.249, 'LTC', 1, 6164, 'pierre', 6743),
-(1399392197, '38284285a34e8792765e67834e16264a5f72f7a9a6760f2c83ba0b13eac05fb1', 3014.8, 'MZC', 1, 6174, 'pierre', 4887),
 (1399797241, 'd76c7bc77069c7dd122a247a8a5f41e9169625dbb71a1822645a15d34f352b78', 99, 'DOGE', 1, 6175, 'pierre', 5);
 
 -- --------------------------------------------------------
@@ -363,22 +308,6 @@ CREATE TABLE IF NOT EXISTS `Notifications` (
 
 INSERT INTO `Notifications` (`id`, `Username`, `Type`, `Text`, `Viewed`) VALUES
 (1, 'pierre', 'information', 'You just bought 9900.00000000 DOGE at a price of 0.00003000 LTC', 1),
-(2, 'julien', 'information', 'You just sold 9900.00000000 DOGE at a price of 0.00003000 LTC', 1),
-(3, 'pierre ', 'information', 'You just bought 10000.00000000 DOGE at a price of 0.00004000 LTC', 1),
-(4, 'pierre', 'information', 'You just sold 10000.00000000 DOGE at a price of 0.00004000 LTC', 1),
-(5, 'julien', 'information', 'You just bought 2000.00000000 DOGE at a price of 0.00003000 LTC', 1),
-(6, 'pierre ', 'information', 'You just sold 2000.00000000 DOGE at a price of 0.00003000 LTC', 1),
-(7, 'julien', 'information', 'You just bought 400.40636220 DOGE at a price of 0.00001332 LTC', 1),
-(8, 'pierre', 'information', 'You just sold 400.40636220 DOGE at a price of 0.00001332 LTC', 1),
-(9, 'pierre', 'information', 'You just made a deposit of99 DOGE. Please wait it reach 4 confirmations to use it', 1),
-(10, 'admin', 'information', 'You just made a deposit of19 DOGE. Please wait it reach 4 confirmations to use it', 1),
-(11, 'pierre', 'information', 'You just made a deposit of413725.58906965 DOGE. Please wait it reach 4 confirmations to use it', 1),
-(12, 'pierre', 'information', 'You just made a deposit of 10003.37675496 DOGE. Please wait it reach 4 confirmations to use it', 1),
-(13, 'julien', 'information', 'You just bought 4567.00000000 DOGE at a price of 0.00004371 LTC', 1),
-(14, 'pierre', 'information', 'You just sold 4567.00000000 DOGE at a price of 0.00004371 LTC', 1),
-(15, 'julien', 'information', 'You just bought 100.00000000 DOGE at a price of 0.00004312 LTC', 1),
-(16, 'pierre', 'information', 'You just sold 100.00000000 DOGE at a price of 0.00004312 LTC', 1),
-(17, 'pierre', 'information', 'You just made a deposit of .Please wait it reach 4 confirmations to use it', 1),
 (18, 'pierre', 'information', 'Your order 2616 has been cancelled.', 1);
 
 -- --------------------------------------------------------
@@ -646,7 +575,7 @@ CREATE TABLE IF NOT EXISTS `Users` (
 
 INSERT INTO `Users` (`User_ID`, `Username`, `Password`, `Email`, `Country`, `LostPasswordRequest`, `Last_IP`, `SignUpDate`, `LastSignIn`, `Actif`, `Banned`, `LastTimeSeen`, `KeyResetPassword`, `KeyActiveAccount`) VALUES
 (679, 'admin', 'd87154517bb10ab6813279f82c0cb4794513be0d', 'adytech2010@gmail.com', 'France', 0, '86.77.145.xxx', '2014-03-03', '2014-05-14 13:35:50', 1, NULL, '2014-08-14 13:35:54', '0', ''),
-(691, 'pierre', 'dcf560b3f7e6c4fb46d13ec6d03ed6babde9e24c', 'test@test.com', 'France', 0, '86.77.145.xxx, '2014-04-03', '2014-05-14 12:35:05', 1, NULL, '2014-08-14 12:38:16', '0', ''),
+(691, 'pierre', 'dcf560b3f7e6c4fb46d13ec6d03ed6babde9e24c', 'test@test.com', 'France', 0, '86.77.145.xxx', '2014-04-03', '2014-05-14 12:35:05', 1, NULL, '2014-08-14 12:38:16', '0', '');
 
 -- --------------------------------------------------------
 
@@ -737,15 +666,6 @@ CREATE TABLE IF NOT EXISTS `Wallets` (
 
 INSERT INTO `Wallets` (`Name`, `Acronymn`, `Wallet_IP`, `Wallet_Username`, `Wallet_Password`, `Id`, `Market`, `Wallet_Port`, `Fee`, `txFee`, `disabled`, `Last_Hash`) VALUES
 ('Bitcoin', 'BTC', 'localhost', 'bitcoinrpc', 'nkrt345udsdfjhgjhsdfuyrt78rtTJHRFHTDTYDfzjozfzeof84e84', 163, 1, 8332, 0, 0, 0, '00000000000000008866c8b5755b21d6ed934568f37cdb5077f02e18e25a1f34'),
-('Litecoin', 'LTC', 'localhost', 'litecoinrpc', 'BseKLfQMFkyCssisorReGFmZtgWyimBtKHRgLDLzNvPS', 164, 1, 9334, 0, 0, 0, 'd8f02578121ae1888d93955ca48ba5f1661c24e9997bcb63f12920c56119fa59'),
-('Dogecoin', 'DOGE', 'localhost', 'dogecoinrpc', 'H92CPU7RfsZxBbrEaDJ51LcezAJ14C8PExJV6HnytyRB', 165, 1, 22555, 0, 0, 0, '7348511aebd4f494c750fd3fd78a32497db6deda80ace7c61acf70feed5ee851'),
-('Litebar', 'LTB', 'localhost', 'litebarrpc', 'JbQ4vAmqQTmCGk5V7bQyiX4TkDcpNzEqA5z8Y4Wrdef', 166, 0, 9055, 0, 0, 0, NULL),
-('Mazacoin', 'MZC', 'localhost', 'mazacoinrpc', 'F1WFjQ3oJT3AQrRicLZ5aJftxhtPb5ypm3Nfkno7Z8YYjiijfe84ezpaoafkooefj', 167, 0, 12832, 0, 0, 0, '00000000000000b9675c3dd0786ed541b85a18190eade0edc7306a64bb9587f7'),
-('Cleanwater', 'WATER', 'localhost', 'cleanwatercoinrpc', 'Su1yWWmSV4HhEyUCLW9dK2goTuL2MLdbcVUgTeEGuhb6wWVvob7GHEBPWD3rF2', 168, 0, 53491, 0, 0, 1, NULL),
-('Xxlcoin', 'XXL', 'localhost', 'xxlcoinrpc', '6qQY8i3HRL6TLtSPC7PBWK38ud4UnfDFY89LPPjJgrzh', 169, 0, 50771, 0, 0, 0, NULL),
-('Potcoin', 'POT', 'localhost', 'potcoinrpc', 'JDkR3N3H9GgjCJvHMxN4Uq7vYhL1Rg9gJzpb3K1bvC7yKnehfhhozHUHJH58484884ez8f48e4f', 170, 0, 42000, 0, 0, 0, NULL),
-('Usde', 'USDE', 'localhost', 'usderpc', '8UaB7gKApsaGJBSGR5YFM6XM7cdCnnKgzFeGp3TKGxQYfjieiofjoifjsdpif854854', 171, 0, 54448, 0, 0, 0, NULL),
-('Auroracoin', 'AUR', 'localhost', 'auroracoinrpc', 'Su1yWWmSV4HhEyUCLWP4KrqzdQ35qW8QrYGvbXdCT1FjiijIJijpUHuihohfoze8848z4fze8f4z8ef4', 172, 0, 12341, 0, 0, 1, NULL),
 ('Nutcoin', 'NUT', 'localhost', 'nutcoinrpc', 'EN7sdaqLXaQSnsS2zCHs4ahFg6FH1JBy5YVUe2JACjBU', 173, 0, 9507, 0, 0, 0, NULL);
 
 -- --------------------------------------------------------
